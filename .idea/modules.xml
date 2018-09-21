@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UniFiles.iml" filepath="$PROJECT_DIR$/UniFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MIF_PSP.iml" filepath="$PROJECT_DIR$/MIF_PSP.iml" />
     </modules>
   </component>
 </project>

@@ -2,6 +2,12 @@ package Strategy;
 
 public class CityConstructionZone implements ConstructionZone {
 
+  private int buildingCount;
+
+  public CityConstructionZone(int buildingCount) {
+    this.buildingCount = buildingCount;
+  }
+
   @Override
   public double demolish() {
     return 0;

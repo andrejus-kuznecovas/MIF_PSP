@@ -2,6 +2,10 @@ package Template;
 
 public class ProvinceGovernment extends ConstructionZoneGovernment {
 
+  public ProvinceGovernment(int buildingCount) {
+    super(buildingCount);
+  }
+
   @Override
   protected double demolish() {
     return 0;

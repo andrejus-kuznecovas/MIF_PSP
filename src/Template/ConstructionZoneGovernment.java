@@ -2,8 +2,14 @@ package Template;
 
 public abstract class ConstructionZoneGovernment {
 
-  protected void BuildingCycle() {
-  };
+  protected int buildingCount;
+
+  public ConstructionZoneGovernment(int buildingCount) {
+    this.buildingCount = buildingCount;
+  }
+
+  public void performBuildingSequence(int buildingCount) {
+  }
 
   protected abstract double demolish();
 
