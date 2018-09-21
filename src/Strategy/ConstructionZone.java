@@ -1,13 +1,13 @@
-package Strategy;
+package strategy;
 
 public interface ConstructionZone {
 
-  int demolish();
+	int demolish();
 
-  void considerProjects(int projectCount);
+	void considerProjects(int projectCount);
 
-  int getBuildingCount();
+	int getBuildingCount();
 
-  int build();
+	int build();
 
 }
