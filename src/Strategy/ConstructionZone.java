@@ -2,9 +2,9 @@ package Strategy;
 
 public interface ConstructionZone {
 
-  double demolish();
+  int demolish();
 
-  void considerProject(int BuildingCount);
+  void considerProjects(int projectCount);
 
   int getBuildingCount();
 
