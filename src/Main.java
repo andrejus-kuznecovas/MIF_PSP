@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import strategy.CityConstructionZone;
+import strategy.OfficeUpkeepPriceCalculator;
 import template.CityConstructionZoneBoard;
 import template.CityConstructionZoneShareholder;
 import template.ConstructionZoneShareholder;
@@ -41,14 +42,15 @@ public class Main {
 	}
 
 	private static void performStrategy() {
-		// Strategy.ConstructionZoneBoard constructionZoneBoard = new
-		// Strategy.ConstructionZoneBoard();
-		// constructionZoneBoard.setConstructionZone(new
-		// CityConstructionZone(100));
-		// doBuildingSequenceStrategy(5, constructionZoneBoard);
-		strategy.ConstructionZoneShareholder constructionShareholder = new strategy.ConstructionZoneShareholder();
-		constructionShareholder.setConstructionZone(new CityConstructionZone(100));
-		constructionShareholder.payForProjects(100, 8000, 5);
+		strategy.ConstructionZoneBoard constructionZoneBoard = new
+		strategy.ConstructionZoneBoard();
+		constructionZoneBoard.setConstructionZone(new
+		CityConstructionZone(100));
+		constructionZoneBoard.setConstructionUpkeepPriceCalculator(new OfficeUpkeepPriceCalculator());
+		doBuildingSequenceStrategy(5, constructionZoneBoard);
+		//strategy.ConstructionZoneShareholder constructionShareholder = new strategy.ConstructionZoneShareholder();
+		//constructionShareholder.setConstructionZone(new CityConstructionZone(100));
+		//constructionShareholder.payForProjects(100, 8000, 5);
 	}
 
 	private static void doBuildingSequenceTemplate(int numberOfSeqeuences,
