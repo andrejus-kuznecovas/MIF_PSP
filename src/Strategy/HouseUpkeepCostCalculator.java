@@ -2,7 +2,7 @@ package strategy;
 
 import java.math.BigDecimal;
 
-public class HouseUpkeepPriceCalculator implements ConstructionUpkeepCostCalculator{
+public class HouseUpkeepCostCalculator implements ConstructionUpkeepCostCalculator{
 	 private final static BigDecimal UPKEEP_COST = new BigDecimal("800");
 
 		@Override

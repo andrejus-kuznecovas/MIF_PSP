@@ -1,8 +1,9 @@
 package template;
 
+import java.math.BigDecimal;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class CityConstructionZoneBoard extends ConstructionZoneBoard {
+public abstract class CityConstructionZoneBoard extends ConstructionZoneBoard {
 
 	private int demolishionLimit = 10;
 	// private int projectCount = 70;
@@ -36,5 +37,7 @@ public class CityConstructionZoneBoard extends ConstructionZoneBoard {
 		return constructionInProgressCount;
 
 	}
+
+
 
 }

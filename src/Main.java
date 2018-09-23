@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 import strategy.CityConstructionZone;
-import strategy.OfficeUpkeepPriceCalculator;
+import strategy.OfficeUpkeepCostCalculator;
 import template.CityConstructionZoneBoard;
+import template.CityConstructionZoneOfficeUpkeepCost;
 import template.CityConstructionZoneShareholder;
 import template.ConstructionZoneShareholder;
 import template.ProvinceConstructionZoneBoard;
@@ -34,10 +35,10 @@ public class Main {
 	}
 
 	private static void performTemplate() {
-		//template.ConstructionZoneBoard constructionZoneBoard = new CityConstructionZoneBoard(100);
-		//doBuildingSequenceTemplate(5, constructionZoneBoard);
-		ConstructionZoneShareholder constructionZoneShareholder = new CityConstructionZoneShareholder(100);
-		constructionZoneShareholder.payForProjects(100, 8000, 5);
+		template.ConstructionZoneBoard constructionZoneBoard = new CityConstructionZoneOfficeUpkeepCost(100);
+		doBuildingSequenceTemplate(5, constructionZoneBoard);
+		//ConstructionZoneShareholder constructionZoneShareholder = new CityConstructionZoneShareholder(100);
+		//constructionZoneShareholder.payForProjects(100, 8000, 5);
 		
 	}
 
@@ -46,7 +47,7 @@ public class Main {
 		strategy.ConstructionZoneBoard();
 		constructionZoneBoard.setConstructionZone(new
 		CityConstructionZone(100));
-		constructionZoneBoard.setConstructionUpkeepPriceCalculator(new OfficeUpkeepPriceCalculator());
+		constructionZoneBoard.setConstructionUpkeepPriceCalculator(new OfficeUpkeepCostCalculator());
 		doBuildingSequenceStrategy(5, constructionZoneBoard);
 		//strategy.ConstructionZoneShareholder constructionShareholder = new strategy.ConstructionZoneShareholder();
 		//constructionShareholder.setConstructionZone(new CityConstructionZone(100));

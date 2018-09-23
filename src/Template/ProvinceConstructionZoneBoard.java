@@ -2,7 +2,7 @@ package template;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class ProvinceConstructionZoneBoard extends ConstructionZoneBoard {
+public abstract class ProvinceConstructionZoneBoard extends ConstructionZoneBoard {
 
 	private int demolishionLimit = 25;
 	// private int projectCount = 70;
