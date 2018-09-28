@@ -8,25 +8,26 @@ public class Main {
 
   private static Scanner in;
 
-public static void main(String[] args) {
-   start();
+  public static void main(String[] args) {
+    start();
   }
-  private static void start(){
-	  System.out.println("1.Template Method \n2.Strategy Method");
-	  in = new Scanner(System.in);
-	  while(true){
-		  int num = in.nextInt();
-	  switch(num){
-	   case 1:
-	   performTemplate();
-	   break;
-	   case 2:
-	    performStrategy();
-	   break;
-	   default : 
-		   break;
-	   }
-	  }
+
+  private static void start() {
+    System.out.println("1.Template Method \n2.Strategy Method");
+    in = new Scanner(System.in);
+    while (true) {
+      int num = in.nextInt();
+      switch (num) {
+        case 1:
+          performTemplate();
+          break;
+        case 2:
+          performStrategy();
+          break;
+        default:
+          break;
+      }
+    }
   }
 
   private static void performTemplate() {
