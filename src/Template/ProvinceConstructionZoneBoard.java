@@ -1,4 +1,4 @@
-package Template;
+package template;
 
 import java.util.concurrent.ThreadLocalRandom;
 
