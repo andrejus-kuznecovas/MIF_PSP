@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e1657f2-dee5-4899-ae2c-e419a0cd8503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/PSP-1-3-Scala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/src/demoScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inspectable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inspector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Paintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Painter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repairable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repairer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scala2-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala2-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +15,7 @@
     <session id="1531074883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="2" />

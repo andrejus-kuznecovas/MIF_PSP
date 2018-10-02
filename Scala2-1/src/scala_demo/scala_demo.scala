@@ -1,7 +1,5 @@
 package scala_demo
 
-package second
-
 object scala_demo {
   def main(args: Array[String]): Unit = {
     def share = new CityConstructionZone

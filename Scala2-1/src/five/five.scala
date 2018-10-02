@@ -1,16 +1,12 @@
-package four
-//trys traitai, dvi abstrakcios, 4 klases su vars
-object scala_demo2 {
+package five
+//traitai extendina abstract klases
+
+object five {
   def main(args: Array[String]): Unit = {
-    def board = new CityConstructionZoneBoard with UpkeepPriceCalculations
+    def zone = new CityConstructionZoneBoard 
+    zone.performBuildingCycle(154)
+    zone.calculateOfficeUpkeepPrice();
 
-    def shareholder = new CityConstructionZoneShareholder with UpkeepPriceCalculations
-
-    board.performBuildingCycle(230)
-    println("Upkeep price: " + board.calculateOfficeUpkeepPrice())
-    println()
-    shareholder.payForProjects(120)
-    println("Upkeep price: " + shareholder.calculateHouseUpkeepPrice())
   }
 
   abstract class ConstructionZoneBoard {
@@ -51,7 +47,25 @@ object scala_demo2 {
     def calculateHouseUpkeepPrice(): Double
   }
 
-  trait ConstructionZoneEvents {
+  trait ConstructionZoneEvents extends ConstructionZoneBoard{
+    val chance: Double
+    val buildingCount: Int
+    val price: Int
+    val projectCount: Int
+
+    def demolish(): Int = {
+      return buildingCount - 10;
+    }
+
+    def considerProject(projectCount: Int): Double = {
+      return (projectCount * chance)
+    }
+
+    def build(): Int = {
+      return (buildingCount + ((projectCount * chance).toInt) - 10);
+    }
+  }
+  trait ConstructionZoneShareholderEvents extends ConstructionZoneShareholder{
     val chance: Double
     val buildingCount: Int
     val price: Int
@@ -83,7 +97,7 @@ object scala_demo2 {
     }
   }
 
-  class CityConstructionZoneBoard extends ConstructionZoneBoard with ConstructionZoneEvents with UpkeepPriceCalculations {
+  class CityConstructionZoneBoard extends ConstructionZoneEvents with UpkeepPriceCalculations {
     val chance = 0.2
     val projectLimit = 10
     val price = 4555500
@@ -91,7 +105,7 @@ object scala_demo2 {
     val buildingCount = 45
   }
 
-  class ProvinceConstructionZoneBoard extends ConstructionZoneBoard with ConstructionZoneEvents with UpkeepPriceCalculations {
+  class ProvinceConstructionZoneBoard extends ConstructionZoneEvents with UpkeepPriceCalculations {
     val chance = 0.8
     val projectLimit = 45
     val projectCount = 1
@@ -99,7 +113,7 @@ object scala_demo2 {
     val buildingCount = 58
   }
 
-  class CityConstructionZoneShareholder extends ConstructionZoneShareholder with ConstructionZoneEvents with UpkeepPriceCalculations {
+  class CityConstructionZoneShareholder extends ConstructionZoneShareholderEvents with UpkeepPriceCalculations {
     val chance = 0.6
     val projectLimit = 14
     val price = 98745
@@ -107,7 +121,7 @@ object scala_demo2 {
     val buildingCount = 78
   }
 
-  class ProvinceConstructionZoneShareholder extends ConstructionZoneShareholder with ConstructionZoneEvents with UpkeepPriceCalculations {
+  class ProvinceConstructionZoneShareholder extends ConstructionZoneShareholderEvents with UpkeepPriceCalculations {
     val chance = 0.9
     val projectLimit = 54
     val projectCount = 9

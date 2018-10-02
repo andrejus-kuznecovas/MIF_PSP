@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b3a355-f90e-4183-8f34-bc8038e5a942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSP-1-3-Scala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demoScala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Inspectable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Inspector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Paintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Painter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Repairable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Repairer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scala2-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala2-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSP-1-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +15,7 @@
     <session id="-1501718196">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -110,7 +92,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538484130484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538484505512" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
