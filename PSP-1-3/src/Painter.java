@@ -3,7 +3,7 @@ public class Painter implements Paintable {
 
   @Override
   public int paint(int color) {
-    System.out.println("Color has been changed");
+    //System.out.println("Color has been changed");
     switch(color){
       case 1:{
         System.out.println("Dark color has been changed to blue");

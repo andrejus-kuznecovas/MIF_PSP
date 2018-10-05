@@ -3,7 +3,7 @@ package five
 
 object five {
   def main(args: Array[String]): Unit = {
-    def zone = new CityConstructionZoneBoard 
+    def zone = new CityConstructionZoneBoard
     zone.performBuildingCycle(154)
     zone.calculateOfficeUpkeepPrice();
 
