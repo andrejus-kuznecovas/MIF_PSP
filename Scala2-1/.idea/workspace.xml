@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="727702b4-1f98-49a5-bbb5-c05fb1d8b69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/Automobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/HeavyMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSP-1-3/src/RailMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/four/Kotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSP-1-3-Scala/src/demoScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3-Scala/src/demoScala.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSP-1-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSP-1-3/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/src/AutomobileManyFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSP-1-3/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/src/Inspector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSP-1-3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSP-1-3/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/src/RailMobileSomeFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSP-1-3/src/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PSP-1-3/src/HeavyMobileAdditionalFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/four/scala_demo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/four/scala_demo2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +48,7 @@
     <session id="-317314126">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -68,22 +59,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
+          <entry key="kt" value="1" />
           <entry key="scala" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="1" />
           <entry key="Scala" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="kt" value="414" />
           <entry key="scala" value="3079" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Kotlin" value="414" />
           <entry key="Scala" value="3079" />
         </counts>
       </usages-collector>
@@ -137,11 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/four/scala_demo2.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
               <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/four/Kotlin.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -166,6 +170,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -181,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/scala_demo/scala_demo.scala" />
         <option value="$PROJECT_DIR$/src/five/five.scala" />
         <option value="$PROJECT_DIR$/src/four/scala_demo2.scala" />
+        <option value="$PROJECT_DIR$/src/four/Kotlin.kt" />
       </list>
     </option>
   </component>
@@ -253,7 +265,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538742466318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538744668051" />
     <property name="last_opened_file_path" value="C:/sipas/Sipas-jpa/pom.xml" />
   </component>
   <component name="RecentsManager">
@@ -382,7 +394,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17446809" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17446809" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,6 +476,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/four/Kotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>

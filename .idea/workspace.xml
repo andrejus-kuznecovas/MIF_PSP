@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a95946c-7428-4cfe-93bd-3802a9606f94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PSP-1-3-Scala/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSP-1-3/src/Automobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSP-1-3/src/HeavyMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSP-1-3/src/RailMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scala2-1/src/four/Kotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PSP-1-3-Scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3-Scala/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSP-1-3-Scala/src/demoScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3-Scala/src/demoScala.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PSP-1-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSP-1-3/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3/src/AutomobileManyFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSP-1-3/src/Inspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3/src/Inspector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSP-1-3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSP-1-3/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3/src/RailMobileSomeFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSP-1-3/src/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/PSP-1-3/src/HeavyMobileAdditionalFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scala2-1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Scala2-1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scala2-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Scala2-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scala2-1/src/four/scala_demo2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Scala2-1/src/four/scala_demo2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
