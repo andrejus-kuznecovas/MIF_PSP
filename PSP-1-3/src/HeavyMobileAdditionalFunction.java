@@ -1,6 +1,10 @@
-public class Truck implements Repairable {
+public class HeavyMobileAdditionalFunction extends RailMobile implements Repairable {
 
-  Repairer repairer = new Repairer();
+  private Repairer repairer;
+
+  public HeavyMobileAdditionalFunction() {
+    repairer = new Repairer();
+  }
 
   public float weight;
 

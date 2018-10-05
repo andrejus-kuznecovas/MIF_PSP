@@ -1,12 +1,17 @@
-public class Car implements Inspectable, Repairable, Paintable {
+public class AutomobileManyFunctions extends Automobile implements Inspectable, Repairable, Paintable {
 
-  private Painter painter = new Painter();
-  private Repairer repairer = new Repairer();
-  private Inspector inspector = new Inspector();
+  protected Painter painter;
+  protected Repairer repairer;
+  protected Inspector inspector;
   private int numberOfSeats = 4;
   private int passergers = 0;
 
 
+  public AutomobileManyFunctions(){
+    painter = new Painter();
+    repairer = new Repairer();
+    inspector = new Inspector();
+  }
   public void addPassengers(int people) {
     passergers += people;
   }

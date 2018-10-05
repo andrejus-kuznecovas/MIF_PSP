@@ -1,15 +1,40 @@
+
 object demoScala {
   def main(args: Array[String]): Unit = {
-    val car = new Car
-    val truck = new Truck
+    val car = new AutomobileManyFunctions
+    val truck = new HeavyMobileAdditionalFunction
     car.addPassengers()
     car.inspect(12)
     car.paint(112)
     truck.repair(45)
 
+    val automobile = new Automobile with Inspector{
+      override val brokenParts: Int = 45}
+
   }
 
-  class Car extends Inspector with Repairer with Painter {
+  class Automobile {
+    def ride(): Unit = {
+      println("Car is riding")
+    }
+
+  }
+
+  class HeavyMobile {
+    def load(): Unit = {
+      println("Got loaded")
+    }
+
+  }
+
+  class RailMobile {
+    def travel(): Unit = {
+      println("Journey completed")
+    }
+
+  }
+
+  class AutomobileManyFunctions extends Automobile with Inspector with Repairer with Painter {
     val brokenParts: Int = 0
     val color: Int = 0
     val numberOfSeats: Int = 4
@@ -20,18 +45,18 @@ object demoScala {
     }
   }
 
-  class Train extends Inspector with Repairer {
+  class RailMobileSomeFunctions extends RailMobile with Inspector with Repairer {
     val brokenParts: Int = 2
     val color: Int = 0
     val locationX: Int = 500
     val locationY: Int = 1200
 
     def transport(): Unit = {
-      println("Truck's location is" +(locationX * locationY / 2))
+      println("Truck's location is" + (locationX * locationY / 2))
     }
   }
 
-  class Truck extends Repairer {
+  class HeavyMobileAdditionalFunction extends HeavyMobile with Repairer {
     val brokenParts: Int = 2
     val color: Int = 0
   }

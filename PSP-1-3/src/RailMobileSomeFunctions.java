@@ -1,11 +1,15 @@
-public class Train implements Inspectable, Repairable {
+public class RailMobileSomeFunctions extends RailMobile implements Inspectable, Repairable {
 
-  Inspector inspector = new Inspector();
-  Repairer repairer = new Repairer();
+  private Inspector inspector;
+  private Repairer repairer;
 
   private int locationX = 500;
   private int locationY = 250;
 
+  public RailMobileSomeFunctions(){
+    Inspector inspector = new Inspector();
+    Repairer repairer = new Repairer();
+  }
   public void transport(){
     this.locationX +=500;
     this.locationY +=200;

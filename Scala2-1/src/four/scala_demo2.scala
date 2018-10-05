@@ -27,9 +27,6 @@ object scala_demo2 {
 
     def build(): Int
 
-    def calculateOfficeUpkeepPrice(): Double
-
-    def calculateHouseUpkeepPrice(): Double
   }
 
   abstract class ConstructionZoneShareholder {
@@ -104,7 +101,7 @@ object scala_demo2 {
     val projectLimit = 14
     val price = 98745
     val projectCount = 60
-    val buildingCount = 78
+    val buildingCount = 8
   }
 
   class ProvinceConstructionZoneShareholder extends ConstructionZoneShareholder with ConstructionZoneEvents with UpkeepPriceCalculations {
